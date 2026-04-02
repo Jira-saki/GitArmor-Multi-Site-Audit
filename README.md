@@ -31,10 +31,10 @@ GitArmor treats your source code as the single source of truth and performs drif
 
 ## 🛠️ Installation
 
-\`\`\`bash
+```bash
 git clone <https://github.com/your-username/git-armor.git>
 cd git-armor
-\`\`\`
+```
 
 ---
 
@@ -42,13 +42,13 @@ cd git-armor
 
 Open `gcheck.sh` and edit the `SITES` array:
 
-\`\`\`bash
+```bash
 SITES=(
   "site-a.com"
   "site-b.net"
   "site-c.jp"
 )
-\`\`\`
+```
 
 ---
 
@@ -56,21 +56,21 @@ SITES=(
 
 Run the audit:
 
-\`\`\`bash
+```bash
 ./gcheck.sh
-\`\`\`
+```
 
 (Optional) Add an alias in your shell config (`~/.bashrc`, `~/.zshrc`):
 
-\`\`\`bash
+```bash
 alias gcheck='~/scripts/git-armor/gcheck.sh'
-\`\`\`
+```
 
 ---
 
 ## 🔍 Example output
 
-\`\`\`text
+```text
 --- site-a.com ---
   ✅ Clean (no drift)
 
@@ -82,7 +82,7 @@ alias gcheck='~/scripts/git-armor/gcheck.sh'
   ✅ Clean (no drift)
 
 ✨ Auditing Complete!
-\`\`\`
+```
 
 ---
 
