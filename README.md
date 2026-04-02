@@ -20,6 +20,15 @@ Managing 19+ WordPress and static sites on shared hosting introduces several cha
 
 GitArmor treats your source code as the single source of truth and performs drift detection by comparing each site's working tree to its Git baseline.
 
+## 📋 Project Scope & Coverage
+
+| Site Group | Count | Platform | Focus |
+| :--- | :--- | :--- | :--- |
+| **WordPress Fleet** | 9 Sites | PHP / MySQL | Security Hardening |
+| **Static Portfolio** | 5 Sites | HTML / CSS | High Availability |
+| **Legacy Systems** | 5 Sites | Mixed | Integrity Monitoring |
+| **Total Managed** | **19 Sites** | **AWS/Shared** | **Zero-Trust Baseline** |
+
 ### Key features
 
 - Multi-tenant support: iterates through an array of project directories.
@@ -32,8 +41,8 @@ GitArmor treats your source code as the single source of truth and performs drif
 ## 🛠️ Installation
 
 ```bash
-git clone <https://github.com/your-username/git-armor.git>
-cd git-armor
+git clone <https://github.com/Jira-saki/GitArmor-Multi-Site-Audit.git>
+cd GitArmor-Multi-Site-Audit
 ```
 
 ---
